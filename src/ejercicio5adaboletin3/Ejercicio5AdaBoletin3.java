@@ -22,6 +22,74 @@ public class Ejercicio5AdaBoletin3 {
         // con la particularidad que cada vez que aparezca un 3 lo sustituya por una E.
         
        // Creo un bucle for con los cinco digitos
+       
+        for (int i = 0; i <=9; i++) {
+            
+            for (int j = 0; j <= 9; j++) {
+                
+                for (int k = 0; k <= 9; k++) {
+                    
+                    for (int l = 0; l <= 9; l++) {
+                        
+                        for (int m = 0; m <=9; m++) {
+                            
+                            // Si la variable es i, j, k, l, m es un 3 
+                            // le decimos que imprima un E
+                            
+                            if (i == 3){
+                                
+                                System.out.print("E");
+                                
+                            }else
+                                
+                                System.out.print(i);
+                            if (j == 3){
+                                
+                                System.out.print("E");
+                                
+                             }else 
+                                
+                                System.out.print(j);
+                            
+                            if (k == 3){
+                                
+                                System.out.print("E");
+                                                               
+                                                                
+                            }else
+                                
+                                System.out.print(k);
+                            
+                            if (l == 3){
+                                
+                                System.out.print("E");
+                                                               
+                                                                
+                            }else
+                                
+                                System.out.print(l);
+                            if (m == 3){
+                                
+                                System.out.print("E");
+                                                               
+                                                                
+                            }else
+                                
+                                System.out.print(m);
+                            
+                            
+                            
+                            System.out.println(i +"-"+ j + "-" + k + "-" + l + "-" + m);
+                            
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            
+        }
     }
     
 }
