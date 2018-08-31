@@ -78,8 +78,10 @@ public class Ejercicio5AdaBoletin3 {
                                 System.out.print(m);
                             
                             
+                            //Imprimimos la última variable
+                            System.out.println(m);
                             
-                            System.out.println(i +"-"+ j + "-" + k + "-" + l + "-" + m);
+                            System.out.println(" ");
                             
                         }
                         
