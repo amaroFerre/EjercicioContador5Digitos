@@ -21,7 +21,7 @@ public class Ejercicio5AdaBoletin3 {
         //que muestre los números del 0-0-0-0-0  al 9-9-9-9-9,
         // con la particularidad que cada vez que aparezca un 3 lo sustituya por una E.
         
-       
+       // Creo un bucle for con los cinco digitos
     }
     
 }
